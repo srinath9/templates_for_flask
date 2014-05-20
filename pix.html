@@ -1,0 +1,497 @@
+<html lang="en" class=" js no-flexbox flexbox-legacy canvas canvastext no-webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms no-csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths boxsizing speechinput no-overflowscrolling cssresize placeholder cssscrollbar formvalidation"><!--<![endif]--><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o?o:n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({D5DuLP:[function(t,n){function e(t,n){var e=r[t];return e?e.apply(this,n):(o[t]||(o[t]=[]),void o[t].push(n))}var r={},o={};n.exports=e,e.queues=o,e.handlers=r},{}],handle:[function(t,n){n.exports=t("D5DuLP")},{}],G9z0Bl:[function(t,n){function e(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&p&&p.body){l.proto="https"===f.split(":")[0]||t.sslForHttp?"https://":"http://",i("mark",["onload",a()]);var n=p.createElement("script");n.src=l.proto+t.agent,p.body.appendChild(n)}}function r(){"complete"===p.readyState&&o()}function o(){i("mark",["domContent",a()])}function a(){return(new Date).getTime()}var i=t("handle"),u=window,p=u.document,s="addEventListener",c="attachEvent",f=(""+location).split("?")[0],l=n.exports={offset:a(),origin:f,features:[]};p[s]?(p[s]("DOMContentLoaded",o,!1),u[s]("load",e,!1)):(p[c]("onreadystatechange",r),u[c]("onload",e)),i("mark",["firstbyte",a()])},{handle:"D5DuLP"}],loader:[function(t,n){n.exports=t("G9z0Bl")},{}]},{},["G9z0Bl"]);</script>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="http://fonts.googleapis.com/css?family=Cabin:400,400italic,500,600,700|Alex+Brush" rel="stylesheet" type="text/css">
+    <title>City Break - Hotel UI Kit Demo | PixelKit</title>
+        <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="stylesheet" type="text/css" media="all" href="http://pixelkit.com/wp-content/themes/pixelkit-child/style.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://pixelkit.com/feed/">
+    <link rel="pingback" href="http://pixelkit.com/xmlrpc.php">
+    <link rel="stylesheet" id="wp_dlmp_styles-css" href="http://pixelkit.com/wp-content/plugins/download-monitor/page-addon/styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="cusel-css" href="http://pixelkit.com/wp-content/themes/pixelkit-parent/css/cusel.css" type="text/css" media="all">
+<link rel="stylesheet" id="custom-css" href="http://pixelkit.com/wp-content/themes/pixelkit-parent/custom.css" type="text/css" media="all">
+<link rel="stylesheet" id="prettyPhoto-css" href="http://pixelkit.com/wp-content/themes/pixelkit-parent/framework/static/css/prettyPhoto.css" type="text/css" media="all">
+<script type="text/javascript" src="http://pixelkit.com/wp-includes/js/jquery/jquery.js"></script>
+<script type="text/javascript" src="http://pixelkit.com/wp-content/themes/pixelkit-parent/js/libs/modernizr.min.js"></script>
+<script type="text/javascript" src="http://pixelkit.com/wp-content/themes/pixelkit-parent/js/libs/respond.min.js"></script>
+<script type="text/javascript" src="http://pixelkit.com/wp-content/themes/pixelkit-parent/js/general.js"></script>
+<script type="text/javascript" src="http://pixelkit.com/wp-content/themes/pixelkit-parent/js/jquery.placeholder.min.js"></script>
+<script type="text/javascript" src="http://pixelkit.com/wp-content/themes/pixelkit-parent/js/jquery.carouFredSel.min.js"></script>
+<script type="text/javascript" src="http://pixelkit.com/wp-content/themes/pixelkit-parent/js/jquery.quicksearch.min.js"></script>
+<script type="text/javascript" src="http://pixelkit.com/wp-content/themes/pixelkit-parent/js/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript" src="http://pixelkit.com/wp-content/themes/pixelkit-parent/js/cusel-min.js"></script>
+<script type="text/javascript" src="http://pixelkit.com/wp-content/themes/pixelkit-parent/js/jquery.tools.min.js"></script>
+<script type="text/javascript" src="http://pixelkit.com/wp-content/themes/pixelkit-parent/js/jquery.customInput.js"></script>
+<script type="text/javascript" src="http://pixelkit.com/wp-content/themes/pixelkit-parent/framework/static/javascript/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="http://pixelkit.com/wp-content/themes/pixelkit-parent/js/jquery.leanModal.min.js"></script>
+<link rel="prev" title="Mirrored Twins Demo" href="http://pixelkit.com/previews/ios-icon-set/">
+<link rel="next" title="Skinny Frames HTML Demo" href="http://pixelkit.com/previews/modern-ui-kit/">
+	<style type="text/css">
+	.download-info .download-button {
+		background-image: url(http://pixelkit.com/wp-content/plugins/download-monitor/page-addon/downloadbutton.gif);
+	}
+	.download-info .more-button {
+		background-image: url(http://pixelkit.com/wp-content/plugins/download-monitor/page-addon/morebutton.gif);
+	}
+	</style>
+<link rel="shortcut icon" href="http://pixelkit.com/wp-content/uploads/2013/04/favicon_2x.png">
+<link rel="canonical" href="http://pixelkit.com/previews/hotel-ui-kit/">
+
+<!-- All in One SEO Pack 2.1.4 by Michael Torbert of Semper Fi Web Design[706,748] -->
+<meta name="description" content="A modern hotel UI kit with a wide variety of elements that will help you create cool designs and web layouts aimed at hotels, B&amp;B's, vacation websites and other">
+
+<meta name="keywords" content="hotel ui kit">
+
+<!-- /all in one seo pack -->
+    <script src="http://pixelkit.com/wp-content/themes/pixelkit-parent/js/jquery.easing.min.js"></script>
+    <!--<script src=""></script>-->
+    <script>
+
+        function setIframeHeight(id)
+        {
+            var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
+
+            if(document.getElementById(id))
+            {
+                document.getElementById(id).style.height = (is_chrome) ?  document.getElementById(id).contentDocument.documentElement.scrollHeight + 'px' : document.getElementById(id).contentWindow.document.body.scrollHeight + 'px' ;
+            }
+        }
+        function setIFramesHeight()
+        {
+            jQuery('.fluid_height').each(function(){
+                setIframeHeight(jQuery(this).attr('id'));
+            });
+        }
+        jQuery(window).load(function(){
+
+            setIFramesHeight();
+
+        });
+        jQuery(window).on('resize', function(){
+
+            setIFramesHeight();
+
+        });
+
+    </script>
+    <!--
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-15832274-19', 'pixelkit.com');
+      ga('send', 'pageview');
+    </script>
+    -->
+    <style type="text/css">
+        .top_panel_text_info{
+            width: 100%;
+            position: fixed;
+            top: -100%;
+            left: 0;
+            background: #0a0a0a;
+            /*-webkit-box-shadow: 1px 2px #383838;
+            -moz-box-shadow: 1px 2px #383838;
+            box-shadow: 1px 2px #383838;*/
+            z-index: 999;
+        }
+        .top_panel_text_info .inner{
+            width: 940px;
+            margin: 0 auto;
+            min-height: 27px;
+            padding: 15px 0;
+        }
+        .top_panel_text_info .inner p{
+            color: #fec309;
+            float: left;
+            font-family:'Alex Brush', cursive;
+            font-weight: normal;
+            font-size: 27px;
+            line-height: 27px;
+            padding-bottom: 10px;
+        }
+        .top_panel_text_info .inner p span{
+            color: #fe0909;
+        }
+        .top_panel_text_info a{
+            float: right;
+            width: auto;
+            text-shadow: rgb(207, 225, 83) 0px 1px 1px;;
+            height: 27px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+            line-height: 27px;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: rgb(143, 77, 0);
+            padding: 0 15px;
+            display: inline-block;
+            border: 1px solid #8f4d00;
+            border-bottom:1px solid #6d2e00;
+            background: #ffd039; /* Old browsers */
+            /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+            background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZDAzOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjkwJSIgc3RvcC1jb2xvcj0iI2ZmYzQyNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjNjdhMTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+            background: -moz-linear-gradient(top,  #ffd039 0%, #ffc426 90%, #c67a15 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffd039), color-stop(90%,#ffc426), color-stop(100%,#c67a15)); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top,  #ffd039 0%,#ffc426 90%,#c67a15 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top,  #ffd039 0%,#ffc426 90%,#c67a15 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(top,  #ffd039 0%,#ffc426 90%,#c67a15 100%); /* IE10+ */
+            background: linear-gradient(to bottom,  #ffd039 0%,#ffc426 90%,#c67a15 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd039', endColorstr='#c67a15',GradientType=0 ); /* IE6-8 */
+        }
+        #after_top_panel_text_info{
+            height: 0;
+        }
+        @media (max-width: 1008px) {
+            .top_panel_text_info .inner{
+                width: 96%;
+                text-align: center;
+            }
+            .top_panel_text_info .inner p,
+            .top_panel_text_info .inner a{
+                float: none;
+            }
+        }
+    </style>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-15832274-19']);
+        _gaq.push(['_setDomainName', '.pixelkit.com']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+
+<script type="text/javascript">
+window.tfuseNameSpace = window.tfuseNameSpace || {};
+tf_script={"TF_THEME_PREFIX":"pixelkit","network_site_url":"http:\/\/pixelkit.com","TFUSE_THEME_URL":"http:\/\/pixelkit.com\/wp-content\/themes\/pixelkit-parent","ajaxurl":"http:\/\/pixelkit.com\/wp-admin\/admin-ajax.php"};
+</script>
+
+<link rel="stylesheet" href="http://pixelkit.com/wp-content/themes/pixelkit-parent/cache/min-css-46bf97ed295b497570d8074a7bb2fdb0.css?ver=0.0" type="text/css" media="all"><style type="text/css"></style></head>
+<body class="full_view gradient custom_bg">
+<style type="text/css">.gradient{
+background-color: #1a315f !important; }
+
+body{
+background-color: #1a315f !important; }
+
+.custom_bg .title_box {
+	border-top:1px solid #041537;
+	border-bottom:1px solid #31466f;}
+
+.custom_bg .title_box .title_box_inner {
+	border-top:1px solid #31466f;
+	border-bottom:1px solid #041537;}
+
+.custom_bg .title_box h2 {
+	color:#fff;
+	text-shadow:0 2px 1px #000;}
+
+.custom_bg .title_box p {
+        color:#9cd70e;
+	text-shadow:0 1px 1px #000;}</style><div class="body_wrap gradient">
+
+    <div class="toppanel">
+        <div class="toppanel_content" id="toppanel_kits">
+            <div class="container">
+                <h1>Get access to all these kits starting from <span>$39/year</span></h1>
+                <a href="http://pixelkit.com/membership-plans/" class="button small btn_yellow" hidefocus="true" style="outline: none;">GET THEM NOW</a>
+            </div>
+
+            <div class="toppanel_list">
+                <div class="caroufredsel_wrapper" style="display: block; text-align: center; float: none; position: relative; top: auto; right: auto; bottom: auto; left: auto; z-index: auto; width: 1286px; height: 230px; margin: 0px; overflow: hidden;"><ul class="clearfix" id="toppanel_list" style="text-align: left; float: none; position: absolute; top: 0px; right: auto; bottom: auto; left: 34px; margin: 0px; width: 9638px; height: 230px; z-index: auto;">
+                                            
+                                            
+                                            
+                                            
+                                            <li class="gallery-item " style="margin-right: 5px;">
+                            <div class="gallery-image" style="background-image:url(http://pixelkit.com/wp-content/uploads/2013/12/ListThumbnail.jpg)"><a href="http://pixelkit.com/previews/ios-icon-set/" class="circle" hidefocus="true" style="outline: none;"></a></div>
+                            <strong>Mirrored Twins</strong>
+                        </li>
+                                            <li class="gallery-item " style="margin-right: 5px;">
+                            <div class="gallery-image" style="background-image:url(http://pixelkit.com/wp-content/uploads/2013/11/ListThumbnail.jpg)"><a href="http://pixelkit.com/previews/modern-ui-kit/" class="circle" hidefocus="true" style="outline: none;"></a></div>
+                            <strong>Skinny Frames</strong>
+                        </li>
+                                            <li class="gallery-item " style="margin-right: 5px;">
+                            <div class="gallery-image" style="background-image:url(http://pixelkit.com/wp-content/uploads/2013/10/ListThumbnail1.jpg)"><a href="http://pixelkit.com/previews/ecommerce-ui-kit/" class="circle" hidefocus="true" style="outline: none;"></a></div>
+                            <strong>Fashion Ave</strong>
+                        </li>
+                                            <li class="gallery-item  selected" style="margin-right: 5px;">
+                            <div class="gallery-image" style="background-image:url(http://pixelkit.com/wp-content/uploads/2013/09/ListThumbnail.jpg)"><a href="http://pixelkit.com/previews/hotel-ui-kit/" class="circle" hidefocus="true" style="outline: none;"></a></div>
+                            <strong>City Break</strong>
+                        </li>
+                                            <li class="gallery-item " style="margin-right: 5px;">
+                            <div class="gallery-image" style="background-image:url(http://pixelkit.com/wp-content/uploads/2013/10/ListThumbnail.jpg)"><a href="http://pixelkit.com/previews/app-icons/" class="circle" hidefocus="true" style="outline: none;"></a></div>
+                            <strong>5 O’clock Shades</strong>
+                        </li>
+                                            <li class="gallery-item " style="margin-right: 5px;">
+                            <div class="gallery-image" style="background-image:url(http://pixelkit.com/wp-content/uploads/2013/08/ListThumbnail.jpg)"><a href="http://pixelkit.com/previews/iphone-ui-kit/" class="circle" hidefocus="true" style="outline: none;"></a></div>
+                            <strong>Vintage iOS</strong>
+                        </li>
+                                            <li class="gallery-item " style="margin-right: 39px;">
+                            <div class="gallery-image" style="background-image:url(http://pixelkit.com/wp-content/uploads/2013/07/ListThumbnail2.jpg)"><a href="http://pixelkit.com/previews/shopping-icons" class="circle" hidefocus="true" style="outline: none;"></a></div>
+                            <strong>Charming Boutique</strong>
+                        </li>
+                                            <li class="gallery-item " style="margin-right: 5px;">
+                            <div class="gallery-image" style="background-image:url(http://pixelkit.com/wp-content/uploads/2013/07/ListThumbnail1.jpg)"><a href="http://pixelkit.com/previews/flat-ui-kit" class="circle" hidefocus="true" style="outline: none;"></a></div>
+                            <strong>Modern Touch</strong>
+                        </li>
+                                            <li class="gallery-item " style="margin-right: 5px;">
+                            <div class="gallery-image" style="background-image:url(http://pixelkit.com/wp-content/uploads/2013/07/ListThumbnail.jpg)"><a href="http://pixelkit.com/previews/fresh-ui-kit/" class="circle" hidefocus="true" style="outline: none;"></a></div>
+                            <strong>Chubby Stacks</strong>
+                        </li>
+                                            <li class="gallery-item " style="margin-right: 5px;">
+                            <div class="gallery-image" style="background-image:url(http://pixelkit.com/wp-content/uploads/2013/03/ListThumb_MV.jpg)"><a href="http://pixelkit.com/previews/metro-ui-kit" class="circle" hidefocus="true" style="outline: none;"></a></div>
+                            <strong>Metro Vibes</strong>
+                        </li>
+                                            <li class="gallery-item " style="margin-right: 5px;">
+                            <div class="gallery-image" style="background-image:url(http://pixelkit.com/wp-content/uploads/2013/05/ListThumb.jpg)"><a href="http://pixelkit.com/previews/dark-ui-kit" class="circle" hidefocus="true" style="outline: none;"></a></div>
+                            <strong>Dark Velvet</strong>
+                        </li>
+                                            <li class="gallery-item " style="margin-right: 5px;">
+                            <div class="gallery-image" style="background-image:url(http://pixelkit.com/wp-content/uploads/2013/03/ListThumbnail4.jpg)"><a href="http://pixelkit.com/previews/minimalist-icon-set" class="circle" hidefocus="true" style="outline: none;"></a></div>
+                            <strong>Gentle Edges</strong>
+                        </li>
+                                            <li class="gallery-item " style="margin-right: 5px;">
+                            <div class="gallery-image" style="background-image:url(http://pixelkit.com/wp-content/uploads/2013/04/ListThumb.jpg)"><a href="http://pixelkit.com/previews/clean-ui-kit" class="circle" hidefocus="true" style="outline: none;"></a></div>
+                            <strong>Arctic Sunset</strong>
+                        </li>
+                                            <li class="gallery-item " style="margin-right: 5px;">
+                            <div class="gallery-image" style="background-image:url(http://pixelkit.com/wp-content/uploads/2013/03/ListThumbnail5.jpg)"><a href="http://pixelkit.com/previews/outline-icon-set" class="circle" hidefocus="true" style="outline: none;"></a></div>
+                            <strong>Swanky Outlines</strong>
+                        </li>
+                                            <li class="gallery-item " style="margin-right: 5px;">
+                            <div class="gallery-image" style="background-image:url(http://pixelkit.com/wp-content/uploads/2013/05/ListThumb2.jpg)"><a href="http://pixelkit.com/previews/colorful-ui-kit" class="circle" hidefocus="true" style="outline: none;"></a></div>
+                            <strong>Sweet Candy</strong>
+                        </li>
+                                            <li class="gallery-item " style="margin-right: 5px;">
+                            <div class="gallery-image" style="background-image:url(http://pixelkit.com/wp-content/uploads/2013/03/ListThumbnail1.jpg)"><a href="http://pixelkit.com/previews/stats-infographic-kit" class="circle" hidefocus="true" style="outline: none;"></a></div>
+                            <strong>Crooked Stats</strong>
+                        </li>
+                                            <li class="gallery-item " style="margin-right: 5px;">
+                            <div class="gallery-image" style="background-image:url(http://pixelkit.com/wp-content/uploads/2013/03/ListThumbnail2.jpg)"><a href="http://pixelkit.com/previews/flat-icon-set" class="circle" hidefocus="true" style="outline: none;"></a></div>
+                            <strong>Flat Jewels</strong>
+                        </li>
+                                            <li class="gallery-item " style="margin-right: 5px;">
+                            <div class="gallery-image" style="background-image:url(http://pixelkit.com/wp-content/uploads/2013/05/ListThumbnail.jpg)"><a href="http://pixelkit.com/previews/mobile-app-ui-kit/" class="circle" hidefocus="true" style="outline: none;"></a></div>
+                            <strong>File Manager App</strong>
+                        </li>
+                                            <li class="gallery-item " style="margin-right: 5px;">
+                            <div class="gallery-image" style="background-image:url(http://pixelkit.com/wp-content/uploads/2013/05/ListThumb1.jpg)"><a href="http://pixelkit.com/previews/light-ui-kit" class="circle" hidefocus="true" style="outline: none;"></a></div>
+                            <strong>Vanilla Cream</strong>
+                        </li>
+                                            <li class="gallery-item " style="margin-right: 5px;">
+                            <div class="gallery-image" style="background-image:url(http://pixelkit.com/wp-content/uploads/2013/03/ListThumbnail3.jpg)"><a href="http://pixelkit.com/previews/food-icon-set" class="circle" hidefocus="true" style="outline: none;"></a></div>
+                            <strong>Tasty Bites</strong>
+                        </li>
+                                    <li class="gallery-item " style="margin-right: 5px;">
+                            <div class="gallery-image" style="background-image:url(http://pixelkit.com/wp-content/uploads/2014/04/funky-tunes-mobile-list-thumbnail.jpg)"><a href="http://pixelkit.com/previews/mobile-ui/" class="circle" hidefocus="true" style="outline: none;"></a></div>
+                            <strong>Funky Tunes Mobile</strong>
+                        </li><li class="gallery-item " style="margin-right: 5px;">
+                            <div class="gallery-image" style="background-image:url(http://pixelkit.com/wp-content/uploads/2014/03/list-thumbnail.jpg)"><a href=" http://pixelkit.com/previews/shopping-ui-kit/" class="circle" hidefocus="true" style="outline: none;"></a></div>
+                            <strong>En Vogue</strong>
+                        </li><li class="gallery-item " style="margin-right: 5px;">
+                            <div class="gallery-image" style="background-image:url(http://pixelkit.com/wp-content/uploads/2014/02/ListThumbnail.jpg)"><a href="http://pixelkit.com/previews/elegant-ui-kit/" class="circle" hidefocus="true" style="outline: none;"></a></div>
+                            <strong>Iceberg</strong>
+                        </li><li class="gallery-item " style="margin-right: 5px;">
+                            <div class="gallery-image" style="background-image:url(http://pixelkit.com/wp-content/uploads/2014/01/ListThumbnail.jpg)"><a href="http://pixelkit.com/previews/music-ui-kit" class="circle" hidefocus="true" style="outline: none;"></a></div>
+                            <strong>Funky Tunes</strong>
+                        </li></ul></div>
+                <a class="prev" id="toppanel_list_prev" href="#" hidefocus="true" style="outline: none; display: block;"><span>prev</span></a>
+                <a class="next" id="toppanel_list_next" href="#" hidefocus="true" style="outline: none; display: block;"><span>next</span></a>
+            </div>
+            <script>
+                jQuery(document).ready(function($) {
+                    $('#toppanel_list').carouFredSel({
+                        prev : "#toppanel_list_prev",
+                        next : "#toppanel_list_next",
+                        auto: false,
+                        width: '100%',
+                        scroll: {
+                            items : 1
+                        }
+                    });
+                    var center_items = Math.floor($("#toppanel_list").triggerHandler("configuration", "items.visible") / 2);
+                    $('#toppanel_list').trigger('slideTo', [$(".gallery-item.selected"), -center_items]);
+
+                    // Show/Hide Map
+                    $(".toppanel_hidebtn").click(function(){
+                        if ($(this).closest(".toppanel").hasClass("panel_hide")) {
+                            $(".toppanel_content").stop().animate({marginTop: "0px"},{queue:false, duration:550, easing: 'easeOutQuart'});
+                        } else {
+                            $(".toppanel_content").stop().animate({marginTop: "-308px"},{queue:false, duration:550, easing: 'easeOutQuart'});
+                        }
+                        $(this).closest(".toppanel").toggleClass("panel_hide");
+                    });
+
+                });
+            </script>
+        </div><!--  / .toppanel_content -->
+
+        <div class="toppanel_pane">
+            <div class="toppanel_hidebtn"></div>
+        </div>
+    </div><!--  / .top panel -->
+        <div class="top_panel_text_info" style="top: 0px;">
+        <div class="inner">
+            <p>This responsive html version comes only with the <span>Developer</span> membership!</p>
+            <a class="button" href="http://pixelkit.com/membership-plans/" hidefocus="true" style="outline: none;">GET THEM NOW</a>         </div>
+    </div>
+        <div class="full_kit">
+        <div class="scroll">
+                            <div class="title_box">
+                    <div class="title_box_inner">										<span class="arrow arrow-down" data-rel="1"></span>
+                        <h2>The Basics</h2>
+                        <p>PART 1 OF 5</p>
+                    </div>
+                </div>
+                <iframe width="100%" height="0" class="fluid_height" id="fluid_height_1" scrolling="no" src="http://pixelkit.com/demo/html/city-break/city-break-css/index.html" style="height: 2570px;"></iframe>
+                                <div class="title_box" id="hidden_iFrame" style="display: block;">
+                    <div class="title_box_inner">					<span class="arrow arrow-up" data-rel="2"></span>					<span class="arrow arrow-down" data-rel="2"></span>
+                        <h2>Listings &amp; Reservations</h2>
+                        <p>PART 2 OF 5</p>
+                    </div>
+                </div>
+                <iframe width="100%" height="0" class="fluid_height" id="fluid_height_2" scrolling="no" src="http://pixelkit.com/demo/html/city-break/city-break-css/reservation.html" onload="document.getElementById('hidden_iFrame').style.display = 'block';" style="height: 2838px;"></iframe>
+                        <div class="title_box"><div class="title_box_inner"><span class="arrow arrow-up" data-rel="3"></span><span class="arrow arrow-down" data-rel="3"></span><h2>Blogging</h2><p>PART 3 OF 5</p></div></div><iframe width="100%" height="100px" class="fluid_height" id="fluid_height_3" scrolling="no" src="http://pixelkit.com/demo/html/city-break/city-break-css/blog.html" style="height: 4400px;"></iframe></div>
+    </div><!-- / .full_kit -->
+
+</div><!-- / .body_wrap -->
+
+<script type="text/javascript">
+    var afterLoadedLast = false;
+    jQuery(document).ready(function() {
+        var counter = 0,
+            i = 0,
+            images = [];
+        images[i++] = '<div class="title_box"><div class="title_box_inner"><span class="arrow arrow-up" data-rel="3"></span><span class="arrow arrow-down" data-rel="3"></span><h2>Blogging</h2><p>PART 3 OF 5</p></div></div><iframe width="100%"  height="100px" class="fluid_height" id="fluid_height_3" scrolling="no" src="http://pixelkit.com/demo/html/city-break/city-break-css/blog.html"></iframe>';images[i++] = '<div class="title_box"><div class="title_box_inner"><span class="arrow arrow-up" data-rel="4"></span><span class="arrow arrow-down" data-rel="4"></span><h2>Forms & Filters</h2><p>PART 4 OF 5</p></div></div><iframe width="100%"  height="100px" class="fluid_height" id="fluid_height_4" scrolling="no" src="http://pixelkit.com/demo/html/city-break/city-break-css/forms.html"></iframe>';images[i++] = '<div class="title_box"><div class="title_box_inner"><span class="arrow arrow-up" data-rel="5"></span><h2>Sliders & Footers</h2><p>PART 5 OF 5</p></div></div><iframe width="100%"  height="100px" class="fluid_height" id="fluid_height_5" scrolling="no" src="http://pixelkit.com/demo/html/city-break/city-break-css/sliders.html"></iframe>';        $(".magniflier").contextmenu(function() {console.log('Please don\'t copy:)');return false;});
+        $(window).scroll(function(){
+            var lastDownArrow = jQuery('.arrow-down').eq(-2).offset();
+
+            if ($(window).scrollTop() >= lastDownArrow.top) {
+
+                if(counter < images.length) {
+
+                    $('.scroll').append(images[counter++]);
+
+                    setTimeout(function(){
+                        setIFramesHeight();
+                    },1500);
+                }else{
+                    if(!afterLoadedLast){
+                        afterLoadedLast = true;
+                        setIFramesHeight();
+                    }
+                }
+
+            }
+        });
+
+        jQuery().UItoTop({ easingType: 'easeOutQuart' });
+    });
+</script>
+
+<!-- Google Code for Remarketing tag -->
+<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 986733683;
+    var google_conversion_label = "exzxCK3imwUQ87jB1gM";
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]> */
+</script>
+<div style="display:none;">
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script><iframe name="google_conversion_frame" title="Google conversion frame" width="0" height="0" src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/986733683/?random=1400587091675&amp;cv=7&amp;fst=1400587091675&amp;num=1&amp;fmt=1&amp;label=exzxCK3imwUQ87jB1gM&amp;guid=ON&amp;u_h=768&amp;u_w=1366&amp;u_ah=744&amp;u_aw=1301&amp;u_cd=24&amp;u_his=3&amp;u_tz=330&amp;u_java=true&amp;u_nplug=15&amp;u_nmime=94&amp;frm=0&amp;url=http%3A//pixelkit.com/previews/hotel-ui-kit/&amp;ref=http%3A//pixelkit.com/kits/hotel-ui-kit/" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" style="display: none !important; visibility: hidden !important; opacity: 0 !important; background-position: 300px 13px;">&lt;img height="1" width="1" border="0" alt="" src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/986733683/?frame=0&amp;random=1400587091675&amp;cv=7&amp;fst=1400587091675&amp;num=1&amp;fmt=1&amp;label=exzxCK3imwUQ87jB1gM&amp;guid=ON&amp;u_h=768&amp;u_w=1366&amp;u_ah=744&amp;u_aw=1301&amp;u_cd=24&amp;u_his=3&amp;u_tz=330&amp;u_java=true&amp;u_nplug=15&amp;u_nmime=94&amp;frm=0&amp;url=http%3A//pixelkit.com/previews/hotel-ui-kit/&amp;ref=http%3A//pixelkit.com/kits/hotel-ui-kit/" /&gt;</iframe>
+</div>
+<noscript>
+    &lt;div style="display:inline;"&gt;
+        &lt;img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/986733683/?value=0&amp;amp;label=exzxCK3imwUQ87jB1gM&amp;amp;guid=ON&amp;amp;script=0"/&gt;
+    &lt;/div&gt;
+</noscript>
+
+<!-- / .body_wrap -->
+<script>
+    jQuery(document).ready(function(){
+
+        $.fn.scrollTo = function( target, options, callback ){
+            if(typeof options == 'function' && arguments.length == 2){ callback = options; options = target; }
+            var settings = $.extend({
+                scrollTarget  : target,
+                offsetTop     : 50,
+                duration      : 500,
+                easing        : 'swing'
+            }, options);
+            return this.each(function(){
+                var scrollPane = $(this);
+                var scrollTarget = (typeof settings.scrollTarget == "number") ? settings.scrollTarget : $(settings.scrollTarget);
+                var scrollY = (typeof scrollTarget == "number") ? scrollTarget : scrollTarget.offset().top + scrollPane.scrollTop() - parseInt(settings.offsetTop);
+                scrollPane.animate({scrollTop : scrollY + "px" }, parseInt(settings.duration), settings.easing, function(){
+                    if (typeof callback == 'function') { callback.call(this); }
+                });
+            });
+        }
+    });
+
+
+    jQuery(document).on('click', '.arrow-down', function(){
+        var thisIndex = jQuery(this).attr('data-rel');
+        thisIndex = parseInt(thisIndex)-1;
+        console.log(thisIndex);
+        var selectedEl = jQuery('.arrow-up').eq(thisIndex).offset();
+        console.log(selectedEl);
+        $('body,html').scrollTo(parseInt(selectedEl.top)-85-parseInt(jQuery('.top_panel_text_info').css('height')), {duration:1000});
+    });
+
+    jQuery(document).on('click', '.arrow-up', function(){
+        var thisIndex = jQuery(this).attr('data-rel');
+        thisIndex = parseInt(thisIndex)-2;
+        console.log(thisIndex);
+        var selectedEl = jQuery('.arrow-down').eq(thisIndex).offset();
+        console.log(selectedEl);
+        $('body,html').scrollTo(parseInt(selectedEl.top)-85-parseInt(jQuery('.top_panel_text_info').css('height')), {duration:1000});
+    });
+    jQuery(window).scroll(function(){
+
+        var howManyPx = 0;
+        if(jQuery('#toppanel_kits').css('margin-top') == '0px')
+        {
+            howManyPx = 326;
+        }else
+        {
+            howManyPx = 18;
+        }
+
+        var topPanel = jQuery('.top_panel_text_info');
+        var topPanelheight = topPanel.height();
+        //console.log($(window).scrollTop());
+        //console.log(parseInt(topPanel.css('top')));
+        //console.log('------');
+        if($(window).scrollTop()>howManyPx){
+            if(parseInt(topPanel.css('top'))<0){
+                topPanel.animate({top: "0"}, 500);
+                //jQuery('.scroll').animate({paddingTop: parseInt(topPanelheight*1.9)}, 500);
+            }
+
+        }else{
+            if(parseInt(topPanel.css('top'))>=0){
+                topPanel.animate({top: "-100%"}, 0);
+                //jQuery('.scroll').animate({paddingTop: 0}, 0);
+            }
+
+        }
+    });
+</script>
+
+<script type="text/javascript" src="http://pixelkit.com/wp-content/themes/pixelkit-parent/cache/min-js-33dd1b06ea7b5a458c337652957b87ba.js?ver=0.0"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-4.newrelic.com","licenseKey":"ab33f8f02a","applicationID":"3535266","transactionName":"ZFcHMEtSDUoHVEYKWF0dJAdNWgxXSUNXDkdfUxEBFFsXVApcWxdHQVcTDVxE","queueTime":0,"applicationTime":537,"ttGuid":"","agentToken":"2abacee1275c1b76","userAttributes":"","errorBeacon":"jserror.newrelic.com","agent":"js-agent.newrelic.com\/nr-411.min.js"}</script>
+<a href="#" id="toTop" style="display: inline;"><span id="toTopHover"></span>To Top</a><script src="http://js-agent.newrelic.com/nr-411.min.js"></script><script type="text/javascript" src="http://beacon-4.newrelic.com/1/ab33f8f02a?a=3535266&amp;ap=537&amp;be=1088&amp;fe=18772&amp;dc=2612&amp;tk=2abacee1275c1b76&amp;v=411.b2946c1&amp;to=ZFcHMEtSDUoHVEYKWF0dJAdNWgxXSUNXDkdfUxEBFFsXVApcWxdHQVcTDVxE&amp;f=%5B%5D&amp;jsonp=NREUM.setToken&amp;perf=%7B%22timing%22:%7B%22of%22:1400587087996,%22n%22:0,%22u%22:940,%22ue%22:944,%22dl%22:986,%22di%22:3700,%22ds%22:3700,%22de%22:4172,%22dc%22:19859,%22l%22:19860,%22le%22:19878,%22f%22:0,%22dn%22:0,%22dne%22:0,%22c%22:0,%22ce%22:0,%22rq%22:12,%22rp%22:933,%22rpe%22:1274%7D,%22navigation%22:%7B%7D%7D"></script></body></html>
