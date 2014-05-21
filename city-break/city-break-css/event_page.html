@@ -1,0 +1,218 @@
+<html lang="en"><!--<![endif]--><head>
+<meta charset="utf-8">
+<meta name="author" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>City Break | Blogging</title>
+
+<!-- main JS libs  -->
+<script src="js/libs/jquery-1.10.2.min.js"></script><style type="text/css"></style>
+<script src="js/libs/jquery-ui.min.js"></script>
+<script src="js/libs/bootstrap.min.js"></script>
+
+<!-- Style CSS -->
+<link href="css/bootstrap.css" media="screen" rel="stylesheet">
+<link href="style.css" media="screen" rel="stylesheet">
+
+<!-- General Scripts -->
+<script src="js/general.js"></script>
+
+<!-- custom input -->
+<script src="js/jquery.customInput.js"></script>
+<script src="js/custom.js"></script>
+
+<!-- Lightbox prettyPhoto -->
+<link href="css/prettyPhoto.css" rel="stylesheet">
+<script src="js/jquery.prettyPhoto.js"></script>
+
+<!-- Calendar -->
+<script src="js/jquery-ui.multidatespicker.js"></script>
+
+<!-- Video Player  -->
+<link href="css/video-js.css" rel="stylesheet">
+<script src="js/video.js"></script>
+<script>
+    videojs.options.flash.swf = "js/video-js.swf";
+</script>
+
+<!--[if lt IE 9]><script src="js/respond.min.js"></script><![endif]-->
+</head>
+
+<body>
+<div class="body-wrap" style="min-height: 447px;">
+    <div class="container">
+
+		<!-- row-->
+		<div class="row">
+			<div class="col-sm-8">
+				<!-- content-->
+				<div class="content " role="main">
+
+                    <h6 class="foo">BLOG POST SLIDER</h6>
+
+                    <!-- post item -->
+                    <div class="post-item boxed style1">
+                        <div class="post-meta-top clearfix">
+                            <h2 class="post-title"><a href="#" hidefocus="true" style="outline: none;">Best 2013 Travel Destinations</a></h2>
+                            <span class="post-date">Posted<br>2 days ago</span>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-carousel">
+                                <div id="myCarousel" class="carousel slide" data-interval="20000">
+                                    <!-- Carousel items -->
+                                    <div class="carousel-inner id1">
+                                        <div class="active item">
+                                            <a href="images/temp/post-img-1.jpg" data-rel="prettyPhoto" title="Shoreline" hidefocus="true" rel="prettyPhoto" style="outline: none;"><img src="images/temp/post-img-1.jpg" alt="" style="width: 521px; margin-top: -9px;"></a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="images/temp/post-img-2.jpg" data-rel="prettyPhoto" title="Shoreline" hidefocus="true" rel="prettyPhoto" style="outline: none;"><img src="images/temp/post-img-2.jpg" alt="" style="height: 270px; margin-left: -9px;"></a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="images/temp/post-img-3.jpg" data-rel="prettyPhoto" title="Shoreline" hidefocus="true" rel="prettyPhoto" style="outline: none;"><img src="images/temp/post-img-3.jpg" alt="" style="height: 270px; margin-left: -9px;"></a>
+                                        </div>
+                                    </div>
+                                    <!-- Carousel indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Carousel nav -->
+                                    <a class="carousel-control left" href="#myCarousel" data-slide="prev" hidefocus="true" style="outline: none;">‹</a>
+                                    <a class="carousel-control right" href="#myCarousel" data-slide="next" hidefocus="true" style="outline: none;">›</a>
+                                </div>
+                            </div>
+                            <div class="post-desc">
+                                <p>Sed molestie augue sit amet leo consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus 43 eleifend ut et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. retres Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. </p>
+                                <p>In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Vestibulum mollis mauris enim. </p>
+                            </div>
+                        </div>
+                        <div class="post-meta-bot clearfix">
+                            <span class="post-author">WRITTEN BY <a href="#" hidefocus="true" style="outline: none;">MARC JACOBS</a></span>
+                            <a href="#" class="btn btn-caps pull-right"><span>Book this</span></a>
+                            <span class="post-more"><a href="#" hidefocus="true" style="outline: none;"></a></span>
+                        </div>
+                    </div>
+
+
+				</div>
+				<!--/ content-->
+		    </div>
+
+			<div class="col-sm-4">
+				<!-- sidebar-->
+
+
+
+				<div class="sidebar">
+					<h6 class="foo">Sidebars</h6>
+
+					<!-- widget calendar-->
+					<div class="widget-container widget-calendar boxed">
+					    <div class="inner">
+					        <input type="text" name="date" class="inputField" value="" id="date">
+					    </div>
+					</div>
+
+					<script>
+					    // <![CDATA[
+					    jQuery(document).ready(function($) {
+					        var daysRange = 5;
+
+					        function assignCalendar(id){
+					            $('<div class="calendar" />')
+					                    .insertAfter( $(id) )
+					                    .multiDatesPicker({
+					                        dateFormat: 'yy-mm-dd',
+					                        minDate: new Date(),
+					                        maxDate: '+1y',
+					                        altField: id,
+					                        firstDay: 1,
+					                        showOtherMonths: true
+					                    }).prev().hide();
+					        }
+
+					        assignCalendar('#date');
+					    });
+					    // ]]>
+					</script>
+					<!--/ widget calendar-->
+
+					<!-- widget categories -->
+					<div class="widget-container widget-categories boxed boxed-blue green-line">
+						<div class="inner">
+                            <h3 class="widget-title">Blog Categories</h3>
+                            <ul>
+                                <li><a href="#" hidefocus="true" style="outline: none;"><span>TRAVEL DESTINATIONS</span></a></li>
+                                <li><a href="#" hidefocus="true" style="outline: none;"><span>HOTELS &amp; RESORTS</span></a></li>
+                                <li class="current-menu-item"><a href="#" hidefocus="true" style="outline: none;"><span>VACATION ACTIVITIES</span></a></li>
+                                <li><a href="#" hidefocus="true" style="outline: none;"><span>SPECIAL OFFERS</span></a></li>
+                                <li><a href="#" hidefocus="true" style="outline: none;"><span>Food &amp; Drinks GUIDE</span></a></li>
+                                <li><a href="#" hidefocus="true" style="outline: none;"><span>BEST WEDDING DESTINATIONS</span></a></li>
+                                <li><a href="#" hidefocus="true" style="outline: none;"><span>EDITOR’S PICKS</span></a></li>
+                                <li><a href="#" hidefocus="true" style="outline: none;"><span>MAGAZINE EDITIONS</span></a></li>
+                                <li><a href="#" hidefocus="true" style="outline: none;"><span>Booking advice</span></a></li>
+							</ul>
+						</div>
+					</div>
+					<!--/widget categories-->
+
+
+
+					<!-- latest stories -->
+					<div class="widget-container widget-recent widget-recent-stories boxed green-line">
+						<div class="inner">
+							<h3 class="widget-title">Latest Stories</h3>
+							<ul>
+								<li class="clearfix">
+									<a href="#" class="post-thumb" hidefocus="true" style="outline: none;"><img src="images/temp/thumb-1.jpg" alt=""></a>
+									<a href="#" class="post-title" hidefocus="true" style="outline: none;">Title for the story</a>
+									<span class="post-desc">Sed molestie augue sit amet leo consequat posuere. Estibu lum ante ipsum primis in faucibus</span>
+								</li>
+								<li class="clearfix">
+									<a href="#" class="post-thumb" hidefocus="true" style="outline: none;"><img src="images/temp/thumb-2.jpg" alt=""></a>
+									<a href="#" class="post-title" hidefocus="true" style="outline: none;">Praesent Id Metus Massa</a>
+									<span class="post-desc">Estibu lum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</span>
+								</li>
+								<li class="clearfix">
+									<a href="#" class="post-thumb" hidefocus="true" style="outline: none;"><img src="images/temp/thumb-3.jpg" alt=""></a>
+									<a href="#" class="post-title" hidefocus="true" style="outline: none;">Suspendisse Dictum</a>
+                                    <span class="post-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris.</span>
+								</li>
+								<li class="clearfix">
+									<a href="#" class="post-thumb" hidefocus="true" style="outline: none;"><img src="images/temp/thumb-4.jpg" alt=""></a>
+									<a href="#" class="post-title" hidefocus="true" style="outline: none;">Nullam In Dui Mauris</a>
+                                    <span class="post-desc">Vivamus hendrerit arcu seditur erat molestie vehicula. Rediters auctor neque eu tellus</span>
+								</li>
+                                <li class="clearfix">
+                                    <a href="#" class="post-thumb" hidefocus="true" style="outline: none;"><img src="images/temp/thumb-5.jpg" alt=""></a>
+                                    <a href="#" class="post-title" hidefocus="true" style="outline: none;">In Condimentum Facilisis</a>
+                                    <span class="post-desc">Rediters auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim.</span>
+                                </li>
+							</ul>
+                            <div class="post-meta-bot">
+                                <a href="#" class="btn btn-shadow" hidefocus="true" style="outline: none;"><span>View More Stories</span></a>
+                            </div>
+						</div>
+					</div>
+					<!--/latest stories -->
+
+					<!-- latest comments-->
+					
+					<!-- latest comments-->
+
+					<!-- widget Tags-->
+					
+					<!--/ widget Tags-->
+
+					
+
+				</div>
+				<!--/ sidebar-->
+		    </div>
+		</div>
+		<!--/ row-->
+	</div>
+	<!--/ container-->
+</div>
+
